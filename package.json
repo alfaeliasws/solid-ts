@@ -4,9 +4,9 @@
   "description": "",
   "scripts": {
     "start": "vite",
-    "dev": "vite",
+    "dev": "SET PORT=4002 && vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "SET PORT=4002 && vite preview"
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.5.0",
+    "classnames": "^2.3.2",
     "solid-js": "^1.5.1"
   }
 }
